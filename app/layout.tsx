@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/header/Header'
 import Footer from '@/components/footer/Footer'
+import { Suspense } from 'react'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -23,7 +24,10 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={roboto.className}>
-        <Header />
+        <Suspense fallback="carregando...">
+          <Header />
+        </Suspense>
+
         {children}
         <Footer />
       </body>

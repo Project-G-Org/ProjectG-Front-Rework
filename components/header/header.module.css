@@ -6,16 +6,6 @@
   padding: 16px 256px;
 }
 
-.headerContent {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 16px;
-  border-radius: 32px;
-  backdrop-filter: blur(10.5px);
-    -webkit-backdrop-filter: blur(10.5px);
-}
-
 @media (max-width: 400px) {
   .header {
     padding: 16px 16px;

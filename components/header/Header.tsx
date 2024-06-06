@@ -46,7 +46,10 @@ export default function Header() {
       <AppBar
         position="static"
         className={styles.headerContent}
-        sx={{ background: 'rgb(255, 255, 255, 0.44)' }}
+        sx={{
+          background:
+            'rgb(255, 255, 255, 0.44); align-items: center; justify-content: center; width: 100%; padding: 16px; border-radius:32px; backdrop-filter: blur(10.5px); -webkit-backdrop-filter: blur(10.5px);',
+        }}
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
