@@ -4,7 +4,7 @@
 
 In web development, it's crucial to ensure that your website layout adjusts gracefully across different screen sizes. One way to achieve this is by using media queries to apply specific styling rules based on the viewport width. This markdown document demonstrates a padding rule applied to a header element with various sizes defined by media queries.
 
-This CSS code should be
+## This CSS fragment should be pasted in every main tag
 
 ## CSS Code
 
