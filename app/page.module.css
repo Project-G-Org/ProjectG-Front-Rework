@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
+  min-width: 100vw;
   min-height: 100vh;
   background-image: url(https://source.unsplash.com/random/1920x1080?architecture-interior);
   background-size: cover;
